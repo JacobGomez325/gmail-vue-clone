@@ -1,19 +1,19 @@
 <template>
   <div class="w-[25%]">
-    <div class="flex justify-center">
-      <button class="flex space-x-3 items-center bg-[#c2e7ff] rounded-xl p-4">
+    <div class="p-3">
+      <button class="flex space-x-3 items-center bg-[#c2e7ff] rounded-xl py-4 px-6">
         <span class="text-gray-700"><IconPencil width="1.5em" height="1.5em" /></span>
         <span class="text-sm font-medium">Nouveau message</span>
       </button>
     </div>
-    <div class="pt-3 pb-6">
+    <div class="pb-6">
       <ul>
         <link-item link="/" title="Boites de recep..."> <IconInbox  width="1.5em" height="1.5em" /> </link-item>
         <link-item link="/message" title="Messages Suivis"> <IconStar width="1.5em" height="1.5em" /> </link-item>
         <link-item link="/attente" title="En attente"> <IconClock width="1.5em" height="1.5em" /> </link-item>
         <link-item link="/send" title="Message envoyés"> <IconAirplaine width="1.5em" height="1.5em" /> </link-item>
         <link-item link="/brouillon" title="Brouillons"> <IconDocument width="1.5em" height="1.5em" /> </link-item>
-        <link-item link="/plus" title="Plus"> <IconChevronDown width="1.5em" height="1.5em" /> </link-item>
+        <link-item link="/plus" title="Plus"> <IconChevronDown width="1.5em" height="1.7em" /> </link-item>
         
       </ul>
     </div>

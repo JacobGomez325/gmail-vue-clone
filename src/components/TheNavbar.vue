@@ -1,9 +1,9 @@
 <template>
   <nav class="flex items-center p-4 justify-between">
-    <div class="flex space-x-3 items-center">
-      <span><IconBarre  width="2.0em" height="2.0em" /> </span>
-      <img src="/images/logo.png" class="w-[40px] h-[40px]" alt="">
-      <span class="text-3xl text-gray-700 font-medium">Gmail</span>
+    <div class="flex space-x-3 items-center ">
+      <span><IconBarre  width="1.6em" height="1.6em" /> </span>
+      <img src="/images/logo.png" class="w-[40px] h-[36px]" alt="">
+      <span class="text-xl text-gray-700 font-medium">Gmail</span>
     </div>
     <InputSearch v-model="search" width="w-[60vw]" />
     <div class="flex space-x-4 items-center text-gray-600">
